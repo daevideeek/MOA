@@ -1,0 +1,35 @@
+{
+    "_comment1": "Povinné položky",
+    "name": "Davidkova Aplikace",         
+    "short_name": "Dapk",             
+  
+    "_comment2": "Ikony aplikace v různých velikostech",
+    "icons": [
+      {
+        "src": "/icons/R.jfif",
+        "sizes": "1200x1077",
+        "type": "image/JPEG"
+      },
+      {
+        "src": "/icons/OIP,jfif",
+        "sizes": "474x470",
+        "type": "image/JPEG"
+      }
+    ],
+  
+    "_comment3": "URL adresa, na kterou se aplikace spustí",
+    "start_url": "/index.html",          
+  
+    "_comment4": "Zobrazení aplikace bez prvků prohlížeče",
+    "display": "standalone",             
+  
+    "_comment5": "Volitelné položky",
+    "background_color": "#FFFFFF",       
+    "theme_color": "#0000FF",            
+    "description": "Toto je ukázková PWA aplikace.", 
+    "orientation": "portrait",           
+    "scope": "/",                        
+    "lang": "cs-CZ",                     
+    "dir": "ltr"
+  }
+  
