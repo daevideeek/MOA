@@ -13,3 +13,19 @@ if ('serviceWorker' in navigator) {
 function sayHello() {
     document.getElementById('hello').innerText = 'Hello world';
 }
+
+<div class="calculator">
+        <h1>Kalkulačka</h1>
+        <form id="calcForm">
+            <input type="number" id="operand1" placeholder="První číslo" required="">
+            <select id="operation">
+                <option value="add">Sčítání (+)</option>
+                <option value="subtract">Odčítání (-)</option>
+                <option value="multiply">Násobení (×)</option>
+                <option value="divide">Dělení (÷)</option>
+            </select>
+            <input type="number" id="operand2" placeholder="Druhé číslo" required="">
+            <button type="button" onclick="calculate()">Spočítat</button>
+        </form>
+        <div id="result">Výsledek</div>
+    </div>
